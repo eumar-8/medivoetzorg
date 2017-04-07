@@ -9,9 +9,11 @@ body{
 }
 .logo{
   margin-left:7%;
+  margin-bottom: 20px;
 }
 .menu{
-   margin-top:40px; 
+   margin-top:40px;
+   margin-left: 94px; 
  }
 
 .menu a{
@@ -38,35 +40,30 @@ body{
  height: 323px;
 }
 .title-main {
-width: 381px;
-height: 41px;
+
 font-family: Alice;
 font-size: 36px;
-line-height: 41px;
-letter-spacing: 1px;
 color: #4A4A4A;
 opacity: 0.9;
-margin-top:30px;
+margin-top: 12px;
  
 }
 .tittle-white{
-width: 370px;
-height: 40px;
+
 font-family: Alice;
 font-size: 35px;
-line-height: 41px;
+line-height: 31px;
 letter-spacing: 2px;
 color: #FFFFFF; 
 
 }
 
 .small-tittle{
-width: 381px;
-font-family: Raleway;
+font-family:'Raleway', serif ;
 font-size: 15px;
 color: #4A4A4A;
 padding: 5px 0;
-margin-top: 38px;
+margin-top: 20px;
 }
 
 
@@ -78,6 +75,7 @@ background-color: #FFFFFF;
 border-radius: 100px;
 font-family: Alice;
 font-size:16px;
+margin-bottom: 20px
 
 }
 
@@ -112,14 +110,13 @@ letter-spacing:1px;
 }
 
 .text-small-blue{
-
-    font-family: Raleway;
-    font-size: 14px;
-    line-height: 19px;
-    color: rgba(0,173,255,1);
-    opacity: 0.7;
-   margin-top: 33px;
-    margin-bottom: 55px;
+ font-family: 'Raleway', serif ;
+ font-size: 14px;
+ line-height: 19px;
+ color: rgba(0,173,255,1);
+ opacity: 0.7;
+ margin-top: 33px;
+ margin-bottom: 55px;
   }
 
 .section-trhee{
@@ -131,12 +128,11 @@ color: #4A4A4A;
 font-family: 'Raleway', serif;
 font-size: 14px;
 margin-bottom: 45px;
-line-height: 18px;
 opacity: 0.8;
 
 }
 
-.section-four{
+.section-color-gray{
   background-color: #C8C8C8;
 }
 
@@ -194,7 +190,7 @@ opacity: 0.8;
   line-height: 17px;
   margin-bottom: 29px;
 }
-.section-seven{
+.section-ligth-blue{
 background-color: #BDEAFF;
 
 }
@@ -203,11 +199,12 @@ color: #4A4A4A;
 font-size:20px;
 margin-top: 30px;
 font-weight: 500;
+line-height: 8px;
 }
   
 
 .img-logo-footer{
-  margin-top: 40px;
+  margin-top: 25px;
 
 }  
 
@@ -227,7 +224,7 @@ font-weight: 500;
   font-family: 'Raleway', serif; ; 
   font-size: 16px;  
   line-height: 17px;
-  font-weight: 100;
+  font-weight: 300;
   
 }
 
@@ -251,7 +248,7 @@ font-weight: 500;
   background-color: #00ADFF;
   width: 210px;
   color: #FFFFFF;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   margin-top: 25px;
 }
 
@@ -300,24 +297,221 @@ margin-bottom: 25px;
   background-color: #BDEAFF;
   height: 50px;
 }
+.section-one-about-me{
+background: url(https://s3.postimg.org/4alcj0pr7/About_Me-_Petra-_Baas-_Medi-_Voet_Zorg.jpg);
+
+}
+.tittle-section-one-about-me{
+  font-size: 24px;
+  font-family: 'Raleway', serif; 
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1px;
+}
+.subtittle-section-one-about-me{
+font-size: 24px;
+  font-family: 'Raleway', serif; 
+  font-weight: 100;
+  color: #ffffff;
+
+}
+
+
+.content-section-one-about-me{
+ margin-left: 150px;
+    margin-bottom: 85px;
+    margin-top: 130px;
+    
+}
+
+.text-section-one-about-me{
+ color: #FFFFFF;
+    font-family: 'Raleway', serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+
+.section-one-about-me img{
+position: absolute;
+    margin-top: 27px;
+}
+.tittle-blue-about-me{
+color: rgba(0,173,255,1);
+font-size: 20px;
+font-family: 'Raleway', serif; 
+font-weight: 300;
+margin-top: 70px;
+margin-bottom: 25px;
+
+}
+
+.text-section-two-about-me{
+font-family: 'Raleway', serif; 
+font-weight: 300;
+font-size: 14px;
+margin-bottom: 50px;
+}
+
+
+.section-two-about-me button{
+ width: 225px;
+ height: 42px;
+ border-radius: 100px;
+ background-color: #00ADFF;
+ color: #ffffff;
+  margin-top: 15px;
+  line-height: 1px;
+
+}
+
+.contact-us-form img{
+margin-left: 141px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.small-text-about-me{
+  font-family: 'Raleway', serif;
+    font-size: 15px;
+    color: #4A4A4A;
+    margin-bottom: 50px;
+    margin-top: 6px;
+}
 
 
 
 
+.title-main-contact-us{ 
+  color: #4A4A4A; 
+  font-family: Alice; 
+  font-size: 38px;  
+  letter-spacing: 3px;
+  line-height: 11px;
+  margin-top: 80px;
+}
+
+.subtitle-section-contact{
+  color: #4A4A4A;
+  font-family: "Gill Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.small-tittle-section-contact{
+ color: #4A4A4A; 
+ font-family:'Raleway', serif; 
+ font-size: 14px;  
+ line-height: 19px;
+ font-weight:100;
+}
 
 
+.input-fom-contact-us{
+background-color:#E5E5E5; 
+border-radius: 0px;
+
+}
+
+.contact-us-form button {
+width: 171px;
+height: 44px;
+border-radius: 100px;
+background-color: #00ADFF;
+color: #ffffff;
+border-color: #00ADFF;
+margin-left: 163px;
+margin-bottom: 35px;
+margin-top: 30px;
+
+}
 
 
+.small-text-contact{
+font-family:'Raleway', serif ;
+font-size: 15px;
+color: #4A4A4A;
+}
+
+.footer-contact-us{
+font-size: 13px;
+font-family: 'Raleway', serif ;
+margin-top: 50px;
+margin-bottom: 10px;
+opacity: 0.7;
+
+}
+
+.footer-img-contact-us{
+  background: url(https://s27.postimg.org/q4bag7wib/Flower_header_Background.jpg);
+  padding: 30px;
+
+}
+
+.section-footer{
+  background:url(https://s2.postimg.org/hxab7bka1/Flowers_Background.jpg);
+}
 
 
+.title-footer{
+  height: 28px; 
+    color: #FFFFFF;
+    font-family: Alice;
+    font-size: 24px;
+   font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+.subtittle-footer{
+    color: #4A4A4A;
+    font-family: "Gill Sans";
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
 
 
+.content-personal-data-footer{
+
+  color: #4A4A4A;
+    font-family: 'Raleway', serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+.content-right-footer{
+  margin-left: 83px;
+}
+
+.title-form-footer{
+    height: 40px; 
+    color: #4A4A4A;
+    font-family: "Gill Sans";
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 19px;
+    margin-left: -14px;
+}
 
 
+.input-form-footer{
+background-color: #BDEAFF;
+}
 
+.form-footer{
+  width: 86%;
+}
 
-
-
+.section-footer button{
+ width: 142px;
+    height: 44px;
+    border-radius: 100px;
+    background-color:#ffffff ;
+    color: #00ADFF;
+    border-color: #ffffff;
+    margin-left: 45px;
+    }
 
 
 
