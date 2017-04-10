@@ -3,57 +3,66 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home</title>
+  <title>Medi VoetZorg</title>
   <link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alice:100" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <link href="petra.css" rel="stylesheet">
 </head>
 
 <body>
-  <!--HEADEEEEEEEEEER-->
-  <header>
-    <div class="nav-header navbar-static-top container">
+  <!--HEADER-->
+  <header class='container big-header'>
+    <div class="row">
+        <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            
+              <img src="https://s28.postimg.org/fx31qbd0d/Logo_New.png" class="logo" height="50px">
+            
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="./">Default <span class="sr-only">(current)</span></a></li>
+              <li><a href="../navbar-static-top/">Static top</a></li>
+              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+    </div>
+  
+    <!-- ##### SECTION 1 ##### -->
+    <div class="section-one container">
       <div class="row">
         <div class="col-lg-1 col-md-1"></div>
-        <div class="col-lg-3 col-md-3">
-          <img src="https://s28.postimg.org/fx31qbd0d/Logo_New.png" class=" logo img-responsive" alt="minilogo">
+        <div class=" col-lg-4 col-md-4">
+          <p class=" text-center title-main">Pedicure Petra Baas</p>
+          <p class="text-center tittle-white">Zorg voor uw voeten kom naar Medi VoetZorg</p>
+          <p class="text-center">Ambulante Pedicure voor Wormerland en de Zaanstreek</p>
+          <div class="text-center">
+            <a href=""></a>
+            <button class=" btn-date btn" type="submit">Maak een afspraak</button>
+          </div>
         </div>
-        <div class=" menu col-lg-7 col-md-7 menu">
-          <nav class="text-centernavbar-static-top ">
-            <a href="/index.html">Home</a>
-            <a href="/services.html"> Diensten</a>
-            <a href="/about-me.html"> Over Mij </a>
-            <a href="/contact-us.html">Contact 06-48715540</a>
-            <img src="https://s7.postimg.org/5ab61phsr/Facebook_Rounded_Solid_icon-icons.com_61562.png" class="icon-facebook img-responsive" alt="facebook">
-          </nav>
+        <div class="col-lg-1 col-md-1"></div>
+        <div class="col-lg-5 col-md-5" style="position:relative">
+          <img src="https://s16.postimg.org/kx80zvy6d/Graphic_foot.png" class="img-responsive img-big-foot" alt="img-foot">
+          <img src="https://s27.postimg.org/p4vnfg1rn/Logo_Pro_Voet_Cover.png" class="img-pro-voet" alt="minilogo">
         </div>
       </div>
     </div>
   </header>
-  <!-- ##### SECTION 1 ##### -->
-  <div class="section-one container">
-    <div class="row">
-      <div class="col-lg-1 col-md-1"></div>
-      <div class=" col-lg-4 col-md-4">
-        <p class=" text-center title-main">Pedicure Petra Baas</p>
-        <p class="text-center tittle-white">Zorg voor uw voeten kom naar Medi VoetZorg</p>
-        <p class="text-center">Ambulante Pedicure voor Wormerland en de Zaanstreek</p>
-        <div class="text-center">
-          <a href=""></a>
-          <button class=" btn-date btn" type="submit">Maak een afspraak</button>
-        </div>
-      </div>
-      <div class="col-lg-1 col-md-1"></div>
-      <div class="col-lg-5 col-md-5" style="position:relative">
-        <img src="https://s16.postimg.org/kx80zvy6d/Graphic_foot.png" class="img-responsive" alt="img-foot">
-        <img src="https://s27.postimg.org/p4vnfg1rn/Logo_Pro_Voet_Cover.png" class="img-pro-voet" alt="minilogo">
-      </div>
-    </div>
-  </div>
   <!-- ##### SECTION 2 ##### -->
   <div class=" container text-center section-white">
     <div class="row">
@@ -184,7 +193,7 @@
                                     <textarea id="message" name="message" class="input-form-footer form-control" placeholder="Onderzoek / service u geïnteresseerd bent" rows="5" required></textarea>
                                   </div>
                                   <div class="form-group">
-                                    <span class="small-text-contact">U kunt ook bellen 31 20 223 1624</span><button type="submit" class="btn">Verzenden</button>
+                                    <span class="small-text-contact">U kunt ook bellen +31 20 223 1624</span><button type="submit" class="btn">Verzenden</button>
                                   </div>
                                 </form>
                               </div>
@@ -192,5 +201,6 @@
                           </div>
                         </footer>
   </body>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </html>

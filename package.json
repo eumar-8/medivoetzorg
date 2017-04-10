@@ -6,9 +6,12 @@
   "dependencies": {
     "express": "^4.15.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "start-dev": "nodemon index.js -e js,css,html"
   },
   "author": "",
   "license": "ISC"

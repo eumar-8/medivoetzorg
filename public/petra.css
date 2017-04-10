@@ -2,30 +2,37 @@ body{
   background-color:rgba(0,173,255,1);
 }
 
+.big-header {
+  background:url(https://s2.postimg.org/hxab7bka1/Flowers_Background.jpg);
+}
 
 .nav-header{
   background: url(https://s27.postimg.org/q4bag7wib/Flower_header_Background.jpg);
   
 }
-.logo{
-  margin-left:7%;
-  margin-bottom: 20px;
+
+.logo {
+  margin-left: 30%;
 }
+
+.navbar-default {
+  background: transparent;
+  border: 0;
+  box-shadow: 0px 0px 0px transparent;
+}
+
 .menu{
    margin-top:40px;
    margin-left: 94px; 
  }
 
-.menu a{
-  width: 68px;
-  height: 19px;
-  font-family: 'Raleway', serif;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-  padding: 30px ;
-  font-weight: 100;
-  
+nav li a{
+  font-family: 'Raleway', serif!important;
+  font-size: 16px!important;
+  color: #FFFFFF!important;
+  padding: 30px!important;
+  font-weight: 100!important;
+  padding: 20px!important;
 }
 
 .icon-facebook{
@@ -35,10 +42,6 @@ body{
 
 
 
-.section-one{
- background:url(https://s2.postimg.org/hxab7bka1/Flowers_Background.jpg);
- height: 323px;
-}
 .title-main {
 
 font-family: Alice;
@@ -79,10 +82,32 @@ margin-bottom: 20px
 
 }
 
-.img-pro-voet{
-  position: absolute;
-    right: 77px;
-    bottom: 20px;
+@media (max-width: 751px) {
+  .menu {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .img-big-foot {
+    display: none;
+  }
+
+  .img-pro-voet{
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .img-big-foot {
+    height: 286px;
+  }
+
+  .img-pro-voet{
+    position: absolute;
+    right: 113px;
+    bottom: 2px;
+  }
 }
 
 .section-white{
