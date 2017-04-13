@@ -114,9 +114,7 @@ nav li a{
     margin-bottom: 55px !important;
     margin-left: 0 !important;
   }
-  .form-footer{
-    margin-left: 38px;
-  }
+  
   .title-form-footer{
     margin-top: 16px !important;
     margin-bottom: 0px !important;
@@ -126,9 +124,18 @@ nav li a{
   }
   .form-footer{
     width: 87% !important;
+    margin-left: 37px !important;
   }
 
 }
+
+@media (max-width: 500px) {
+.form-footer{
+ margin-left: 20px !important;
+}
+  
+}
+
 
 
 @media (max-width: 995px) {
@@ -194,6 +201,7 @@ nav li a{
     margin-left: 0!important;
   }
 }
+
 
 
 @media (min-width: 1199px) {
@@ -373,7 +381,7 @@ nav li a{
   padding-top: 5px;
 }
 .table{
-  margin-bottom: 40px !important;
+  margin-bottom: 40px !important ;
 }
 
 .section-one-services tr td p{
