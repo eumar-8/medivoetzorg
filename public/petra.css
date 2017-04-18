@@ -3,11 +3,11 @@ body{
 }
 
 .big-header {
-  background:url(https://s2.postimg.org/hxab7bka1/Flowers_Background.jpg);
+  background:url(https://s4.postimg.org/wlaur7vb1/Flowers_Background-plus.png);
 }
 
 .nav-header{
-  background: url(https://s27.postimg.org/q4bag7wib/Flower_header_Background.jpg);
+  background: url(hhttps://s29.postimg.org/le18ks4l3/Flowers_Background-plus.jpg);
   
 }
 
@@ -31,12 +31,16 @@ nav li a{
   font-family: 'Raleway', serif!important;
   font-size: 16px!important;
   color: #FFFFFF!important;
-  padding: 30px!important;
   font-weight: 100!important;
-  padding: 20px!important;
   padding-top: 50px !important;
+  margin: 37px 15px 0 15px!important;
+  padding: 0!important;
 }
-
+nav li a  img {
+    max-width: none;
+    margin-left: -14px !important;
+        margin-top: -4px;
+}
 
 
 .title-main {
@@ -45,25 +49,26 @@ nav li a{
   font-size: 36px;
   color: #4A4A4A;
   opacity: 0.9;
-  margin-top: 2px;
+  margin-top: 20px;
 
 }
 .tittle-white{
 
   font-family:'Raleway', serif  ;
-  font-size: 35px;
-  line-height: 31px;
+  font-size: 23px;
+  line-height: 34px;
   letter-spacing: 1px;
   color: #FFFFFF; 
-
+padding-bottom: 10px;
 }
 
 .small-tittle{
   font-family:'Raleway', serif ;
-  font-size: 15px;
+  font-size: 14px;
   color: #4A4A4A;
-  padding: 5px 0;
-  margin-top: 20px;
+  margin-bottom: 35px;
+  opacity: 0.8;
+  width: 103%;
 }
 
 
@@ -73,11 +78,19 @@ nav li a{
   height: 42px;
   background-color: #FFFFFF;
   border-radius: 100px;
-  font-family: Alice;
+  font-family: 'Raleway', serif;
   font-size:16px;
   margin-bottom: 20px
 
 }
+.img-big-foot{
+margin-left: 40px;
+}
+
+.icon-bar {
+    background-color: #fff !important;
+}
+
 
 @media (max-width: 537px) {
   .title-small-section-seven{
@@ -85,20 +98,28 @@ nav li a{
   }
 }
 
-@media (max-width: 766px) {
+@media (max-width: 767px) {
   .navbar-header{
     text-align: center !important;
     padding-left: 32px;
   }
   nav li a{
     text-align: right;
+    color: #000000 !important;
+    font-weight: 500 !important;
+    
   }
   nav li a img{
     float: right;
   }
+  .tittle-white {
+  display: none !important;
+}
   
 }
 @media (max-width: 992px) {
+
+
   .section-color-gray {
     text-align: center;
   }
@@ -136,13 +157,19 @@ nav li a{
   
 }
 
-
-
-@media (max-width: 995px) {
+@media (max-width: 991px) {
   .img-big-foot {
-    display: none;
+   display: none !important;
   }
+}
 
+
+
+
+
+
+@media (max-width: 996px) {
+  
   .img-pro-voet{
     display: none;
   }
@@ -152,12 +179,12 @@ nav li a{
    margin-left: 6px;
  }
  nav li a{
-  padding-top: 30px !important;
+  padding-top: 0px !important;
 } 
 }
 
 
-@media (max-width: 1198px) {
+@media (max-width: 1199px) {
   .contact-complete{
     display: none !important;
   }
@@ -171,7 +198,12 @@ nav li a{
   .contact-us-form {
     text-align: center !important;
   }
-
+  .img-big-foot {
+    margin-top: 19px;
+  }
+.img-pro-voet {
+  right: -37px !important;
+}
 
 }
 
@@ -202,9 +234,17 @@ nav li a{
   }
 }
 
+@media (min-width: 767px) {
+  .current-page{
+    border-bottom-width: 1px!important;
+    border-bottom-color: white!important;
+    border-bottom-style: solid!important;
+    padding-bottom: 5px!important;
+  }
+}
 
 
-@media (min-width: 1199px) {
+@media (min-width: 1200px) {
   .contact-complete{
     display: inline-block;
   }
@@ -224,23 +264,34 @@ nav li a{
 
 
 @media (min-width: 992px) {
-  .img-big-foot {
-    height: 286px;
-  }
-
+  
   .img-pro-voet{
     position: absolute;
-    right: 113px;
-    bottom: 2px;
+    right: 42px;
+    bottom: 21px;
   }
+    
 }
+
+@media only screen and (max-width: 995px) and (min-width: 767px)  {
+
+nav li a{
+
+
+}
+.logo {
+    height: 65px!important;
+    margin-left: 78px !important;
+    width: 215px !important;
+
+}}
 
 .section-white{
  background-color: #FFFFFF;
 }
 .title-center {
   font-family:'Raleway', serif ;
-  font-size: 30px;
+  font-size: 36px;
   line-height: 41px;
   color: #4A4A4A;
   padding:60px 0 10px;
@@ -263,8 +314,8 @@ nav li a{
  font-family: 'Raleway', serif ;
  font-size: 14px;
  line-height: 19px;
- color: rgba(0,173,255,1);
- opacity: 0.7;
+ color: #87CEFA;
+ 
  margin-top: 33px;
  margin-bottom: 55px;
 }
@@ -311,8 +362,7 @@ nav li a{
  font-family: 'Raleway', serif;
  font-size: 14px;
  margin-bottom: 8px;
- line-height: 23px;
- text-align: justify;
+
  opacity: 0.8;
 
 }
@@ -321,6 +371,7 @@ nav li a{
   font-family: 'Raleway', serif;
   font-weight: 600;
   line-height:5px;
+  margin-top: 30px
 }
 
 .section-four button{
@@ -345,9 +396,10 @@ nav li a{
 .title-small-section-seven{
   color: #4A4A4A;
   font-size:20px;
-  margin-top: 30px;
+  margin-top: 45px;
   font-weight: 500;
   line-height: 8px;
+  padding-bottom: 4px
 }
 
 
@@ -433,7 +485,7 @@ nav li a{
   font-weight: 600; 
   letter-spacing: 1px;
   margin-top: 15px;
-  margin-bottom: 11px;
+  margin-bottom: 25px;
 }
 .section-trhee-services p{
   font-family: 'Raleway', serif; 
@@ -451,7 +503,15 @@ nav li a{
 
 }
 
-@media (max-width: 995px) {
+
+
+@media (max-width: 991px) {
+.content-section-one-about-me{
+  background-color: rgba(0,0,0,0.6) !important;
+background:no-repeat;
+}
+  
+  
   .section-one-about-me img {
     display: none;
   }   
@@ -459,7 +519,20 @@ nav li a{
  margin-left: 0px !important;
  text-align: center;
 
+ }
+
 }
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+ .content-section-one-about-me{ 
+margin-left: 175px !important;
+padding-bottom: 60px!important;
+
+}
+.img-provoet-about-me{
+  display: none!important;
+}
+
 }
 .tittle-section-one-about-me{
   font-size: 24px;
@@ -479,9 +552,9 @@ nav li a{
 
 .content-section-one-about-me{
  margin-left: 150px;
- margin-bottom: 85px;
- margin-top: 130px;
-
+ padding-bottom: 85px;
+ padding-top: 130px;
+ 
 }
 
 .text-section-one-about-me{
