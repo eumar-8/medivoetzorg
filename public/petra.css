@@ -320,18 +320,27 @@ display: none;
   }
     
 }
-
+@media screen and (max-width: 767px){ 
+.table-responsive {
+border: transparent!important;
+}
+}
 @media only screen and (max-width: 995px) and (min-width: 767px)  {
 
-nav li a{
-
-
-}
 .logo {
     height: 65px!important;
     margin-left: 78px !important;
     width: 215px !important;
 
+}}
+
+@media only screen and (max-width: 1999px) and (min-width: 992px)  {
+
+.tittle-white{
+  font-size: 29px!important;
+}
+.title-main {
+  font-size: 27px!important;
 }}
 
 .section-white{
@@ -710,6 +719,7 @@ padding-bottom: 60px!important;
   background-color: #00ADFF;
   color: #ffffff;
   border-color: #00ADFF;
+
   margin-top: 30px;
 
 }
